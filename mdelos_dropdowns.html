@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROPDOWNs</title>
+    <style>
+        #nav{
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background: rgba(6, 6, 184, 0.664);
+            
+        }
+    </style>
+</head>
+<body>
+   <nav id="nav"></nav>
+   <script src="corrente.js"></script>
+    <script src="CLASSES/Tags.js"></script>
+    <script src="CLASSES/DropDown.js"></script>
+    <script>
+       let teste = Tags.get("nav");
+      let drop = new DropDown(teste,{test:"Menu de links",test2:"Abrir novo link",test3:"Wisterleys tornar dinamica"})
+       //console.log(teste)
+    </script>
+</body>
+</html>
